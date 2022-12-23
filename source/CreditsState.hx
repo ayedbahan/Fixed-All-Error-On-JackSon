@@ -41,7 +41,7 @@ class CreditsState extends MusicBeatState
 	{
 		#if desktop
 		// Updating Discord Rich Presence
-		DiscordClient.changePresence("In the Menus", null);
+		DiscordClient.changePresence(" Jackson in Menus", null);
 		#end
 
 		persistentUpdate = true;
@@ -81,6 +81,9 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
+      ['Fix all Error']
+      ['JackSon',   'Jack',   'Telling all error StorymodsState also on Package',   'https://discord.gg/ZJVcDjJE',   '0000FF'],
+      ['ayed',    'ayed',   'fixed all Problems for Jackson my Friend',   'https://youtube.com/@ayedfnf', 'FF00FF'],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',							'https://twitter.com/Shadow_Mario_',	'444444'],
 			['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',						'https://twitter.com/RiverOaken',		'C30085'],
